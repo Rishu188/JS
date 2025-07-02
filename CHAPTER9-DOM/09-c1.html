@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Input Example</title>
+</head>
+
+<body>
+    <input placeholder="Type something" class="js-input" onkeyup="updateMessage()">
+
+    <p class="js-message"></p>
+
+    <script>
+        function updateMessage() {
+            const inputElement = document.querySelector('.js-input');
+            const messageElement = document.querySelector('.js-message');
+
+            messageElement.innerHTML = inputElement.value;
+            console.log(inputElement.value);
+        }
+    </script>
+</body>
+
+</html>
