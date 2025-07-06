@@ -12,10 +12,20 @@
       updateButton();
     ">begin</button> -->
 
-    <button class="js-button" onclick="
+    <!-- <button class="js-button" onclick="
     displayMessage()
     ">Add to Cart</button>
-    <p class="js-message"></p>
+    <p class="js-message"></p> -->
+
+
+    <button onclick="
+      messages++;
+    ">Add</button>
+
+    <button onclick="
+      messages=Math.max(0,messages-1);
+    ">Remove</button>
+
     <script>
         // const add = function() {
         //     console.log(2 + 3);
@@ -40,9 +50,9 @@
         // function updateButton() {
         //     const buttonElement = document.querySelector('.js-button');
         //     buttonElement.innerHTML = 'Loading';
-        // setTimeout(function() {
-        //     buttonElement.innerHTML = 'Finished!';
-        // }, 1000);
+        //     setTimeout(function() {
+        //         buttonElement.innerHTML = 'Finished!';
+        //     }, 1000);
         // }
 
 
@@ -71,11 +81,23 @@
         // }
 
 
+        // setInterval(function() {
+        //     if (document.title === 'App') {
+        //         document.title = '(2) New messages';
+        //     } else {
+        //         document.title = 'App';
+        //     }
+        // }, 1000);
+
+
+        let messages = 2;
+        let showCount = true;
         setInterval(function() {
-            if (document.title === 'App') {
-                document.title = '(2) New messages';
-            } else {
+            if (messages === 0) {
                 document.title = 'App';
+            } else {
+                document.title = showCount ? `(${messages}) New messages` : 'App';
+                showCount = !showCount;
             }
         }, 1000);
     </script>
