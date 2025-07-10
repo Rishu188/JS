@@ -655,5 +655,21 @@ export const products = [{
             "apparel",
             "mens"
         ]
+    },
+
+    {
+        id: "bc2847e9-5323-403f-b7cf-57fde044a955",
+        image: "images/products/women-skirt.jpg",
+        name: "Women Skirt",
+        rating: {
+            stars: 4.5,
+            count: 3000
+        },
+        priceCents: 2600,
+        keywords: [
+            "skirt",
+            "womens"
+        ]
     }
+
 ];
