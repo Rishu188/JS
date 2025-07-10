@@ -655,56 +655,5 @@ export const products = [{
             "apparel",
             "mens"
         ]
-    },
-    {
-        id: "id1",
-        image: "images/products/backpack.jpg",
-        name: "Black Backpack",
-        rating: {
-            stars: 4.5,
-            count: 123
-        },
-        priceCents: 2500
-    },
-    {
-        id: "id2",
-        image: "images/products/umbrella.jpg",
-        name: "Large Green Umbrella",
-        rating: {
-            stars: 5,
-            count: 456
-        },
-        priceCents: 2999
-    },
-    {
-        id: "id2",
-        image: "images/products/women-skirt.jpg",
-        name: "Pink Skirt",
-        rating: {
-            stars: 4.5,
-            count: 555
-        },
-        priceCents: 4999
-    },
-    {
-        id: "id2",
-        image: "images/products/baby-clothes.jpg",
-        name: "American-Flag-Doll-Clothes",
-        rating: {
-            stars: 4.5,
-            count: 455
-        },
-        priceCents: 2666
-    },
-    {
-        id: "id2",
-        image: "images/products/variations/trouser.jpeg",
-        name: "Women-Trouser",
-        rating: {
-            stars: 4.5,
-            count: 563
-        },
-        priceCents: 12356
     }
-
 ];
