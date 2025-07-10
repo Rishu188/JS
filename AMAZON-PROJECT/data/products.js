@@ -670,6 +670,36 @@ export const products = [{
             "skirt",
             "womens"
         ]
+    },
+    {
+        id: "bc2847e9-5323-403f-b7cf-57fde044a955",
+        image: "images/products/variations/trouser.jpeg",
+        name: "Women Trouser",
+        rating: {
+            stars: 4.5,
+            count: 3117
+        },
+        priceCents: 2440,
+        keywords: [
+            "bottom",
+            "womens"
+        ]
+    },
+    {
+        id: "bc2847e9-5323-403f-b7cf-57fde044a955",
+        image: "images/products/baby-clothes.jpg",
+        name: "American Doll cord set",
+        rating: {
+            stars: 4.5,
+            count: 2000
+        },
+        priceCents: 5660,
+        keywords: [
+            "top-bottom",
+            "skirt",
+            "cap",
+            "dolls"
+        ]
     }
 
 ];
